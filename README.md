@@ -41,6 +41,7 @@ You should arrange them in the arch already, but you don't have to.
 
 Then, Attach the FastIkFabric.cs script (part of the Fast IK asset) to the TopJoint Sphere. Make sure the Chain Length Variable is set to the same amount of leg bones you have.
 Set the target to the appropriate sphere attached to the body(you should have made this earlier this step)
+
 ....................................................................................................................................
 
 Step 3 + 4: Make a target point attached to the body, using Raycasting
