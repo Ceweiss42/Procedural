@@ -11,8 +11,7 @@ public class RayCastLegToTarget : MonoBehaviour
 
     public RaycastHit hit;
 
-    //this is the name of the raycasted target, I was having problems with the GetComponent<GameObject>() method for some reason and I just bypassed it with the name.
-    public string name;
+    
 
     //the distance from leg to raycasted target
     public double distance;
@@ -24,7 +23,7 @@ public class RayCastLegToTarget : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        legGrounded = GameObject.Find(name);
+        
         distance = 0;
         
     }
