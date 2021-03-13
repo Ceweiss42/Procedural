@@ -11,15 +11,9 @@ public class RayCastObjectDownward : MonoBehaviour
 
     public RaycastHit hit;
     public GameObject legTarget;
-    public string name;
+    
     
 
-
-    void Start()
-    { //this was explained in the other code file, but the GetComponent<GameObject>() method was not saving the objects for some reason
-        legTarget = GameObject.Find(name);
-       
-    }
     void Update()
     {
         //draw ray from top down
